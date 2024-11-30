@@ -77,9 +77,6 @@
             width: 80% !important;
             margin:0;
             padding:2.5rem 0;
-            h1,h2,p {
-                text-align: center !important;
-            }
             button {
                 display: flex;
                 justify-content: center;
@@ -89,7 +86,6 @@
         form {
             grid-column: 1/2 !important;
             grid-row: 2/3 !important;
-         
             position: static !important;
             width: 100% !important;
             justify-self: start !important;
@@ -108,7 +104,6 @@
             "class_selection_two"
             "submit"
             !important;
-    
             p:first-of-type {
                 grid-area: p-first-of-type;
             }
@@ -151,9 +146,7 @@
 .comments {
     margin: 4rem 0 0 0;
 }
-
 .how_we_work {
-    margin: 4rem 0 0 0;
     position: relative;
     .how_we_work_background {
         height:55rem; 
@@ -207,16 +200,6 @@
         }
     }
 }
-/*
-.closing_image {
-    height:30rem;
-    margin-top: 4rem;
-    background-image: url(Pictures/small-last-pic-2_upscayl_4x_realesrgan-x4plus.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-} */
 }
 
 @media (width >= 480px) and (width < 768px) {
