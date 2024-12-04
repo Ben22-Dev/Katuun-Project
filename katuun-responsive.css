@@ -3,25 +3,21 @@
         font-size: 30px;
     }
 }
-
 @media (width >= 1700px) and (width < 1920px) {
     html {
         font-size: 25px;
     }
 }
-
 @media (width >= 1440px) and (width < 1700px) {
     html {
         font-size: 20px;
     }
 }
-
 @media (width >= 1024px) and (width < 1440px) {
     html {
         font-size: 16px;
     }
 }
-
 @media (width < 1440px) {
     nav {
         ul {
@@ -29,8 +25,6 @@
         }
     }
 }
-
-
 @media (width >= 768px) and (width < 1024px) {
     html {
         html {
@@ -38,7 +32,6 @@
         }
     }
 }
-
 @media (width < 1024px) {
     .intro_text {
         width: 80% !important;
@@ -47,7 +40,6 @@
         width:max-content !important;
     }
 }
-
 @media (width < 768px) {
     html {
         font-size: 14px;
@@ -147,23 +139,14 @@
     margin: 4rem 0 0 0;
 }
 .how_we_work {
-    position: relative;
-    .how_we_work_background {
-        height:55rem; 
-    }
     .contents {
-        top:50%;
-        transform: translateY(-50%);
-        gap:2rem;
-        height:55rem; 
+        border: 2px solid red;
+        height:max-content; 
+        padding: 2rem 0;
         .icons {
-            height:max-content;
-            width:100%;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            gap: 1rem;
-    }
+        }
         .arrow.down {
             display: block;
         }
@@ -172,7 +155,6 @@
         }
     }
 }
-
 .our_plan {
     height: max-content;
     grid-template-columns: 100% !important;
@@ -190,7 +172,7 @@
     }
     .card {
         grid-area: card;
-        width:50%;
+        width:65%;
         height: max-content;
         justify-self: start;
         margin-left: 4rem;
@@ -205,8 +187,10 @@
         }
     }
 }
+.closing_image {
+    height: auto;
 }
-
+}
 @media (width >= 480px) and (width < 768px) {
     html {
         font-size: 14px;
@@ -224,7 +208,6 @@
     }
     }  
 }
-
 @media (width < 480px) {
     html {
         font-size: 12px;
